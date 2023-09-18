@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+.sidebar {
+    background-color: #1c8acc;
+    color: white;
+    grid-row: span 2;
+}
+
+.sidebar-option {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.sidebar-option > img {
+    width: 100px;
+    height: 80%;
+    object-fit: contain;
+    filter: invert(1);
+}
