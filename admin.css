@@ -5,7 +5,7 @@ body {
 }
 .wrapper {
     display: grid;
-    grid-template-columns: 350px 3fr;
+    grid-template-columns: 20% 80%;
 }
 
 .sidebar {
@@ -41,7 +41,17 @@ body {
     margin-bottom: 15%;
 }
 
+
+.main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
 .userhud {
-    background-color: white;
-    height: 20vh;
+    background-color: #ffffff;
+}
+
+.content {
+    background-color: #dee5ee;
 }
