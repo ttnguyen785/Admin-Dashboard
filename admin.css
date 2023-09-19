@@ -12,7 +12,6 @@ body {
     background-color: #1c8acc;
     color: rgb(0, 0, 0);
     height: 100vh;
-    width: 100%;
 }
 
 .sidebar-dashboard,
@@ -68,14 +67,62 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 5px 20px;
     
 }
 .searchbar {
     background-color: #dee5ee;
     border-radius: 20px;
     height: 30px;
-    width: 500px;
+    width: 750px;
+    margin-left: 2%;
+   
 }
 .content {
     background-color: #dee5ee;
+}
+
+.glass {
+    margin-left: 3%;
+}
+
+.bell {
+    margin-left: 10%;
+    margin-right: 25px;
+}
+
+.icon {
+    margin-right: 25px;
+}
+
+.nav-menu > h4 {
+    color: black;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    color: black;
+    align-items: center; 
+}
+.text > * {
+    margin: 0;
+}
+.welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    background-color: #1c8acc;
+    border-radius: 20px;
+    width: 90px;
+    padding: 10px;
+    border: none;
 }
